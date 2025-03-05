@@ -20,11 +20,16 @@ You must dispatch the packages in the following stacks:
 
 Implement the function **`sort(width, height, length, mass)`** (units are centimeters for the dimensions and kilogram for the mass). This function must return a string: the name of the stack where the package should go.
 
+### Install nodeJS on a mac
+```
+    brew install node
+```
+
 ### Run and test the code
 ```
     git clone git@github.com:mattwerthva/package-sort.git
     cd package-sort
-    npm num start
+    node main.js
 ```
 
 
